@@ -52,7 +52,7 @@ $ brew install gocr
 Now run the bot every 60s (twitter API limit):
 
 ```
-watch -n 60 php artisan mcafee:get-dem-shills -v
+$ watch -n 60 php artisan mcafee:get-dem-shills -v
 ```
 
 That's it.
@@ -63,4 +63,4 @@ This has been tested on the latest McAfee shill, but if he changes tactics (ie: 
 
 # I know PHP but don't know Laravel, where's the code?
 
-It's very simple: [app/Console/Commands/GetMcafeeShills.php](blob/master/app/Console/Commands/GetMcafeeShills.php).
+It's very simple: [app/Console/Commands/GetMcafeeShills.php](https://github.com/mattiasgeniar/McAfee-Shill-Bot/blob/master/app/Console/Commands/GetMcafeeShills.php).
