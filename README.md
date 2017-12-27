@@ -6,6 +6,12 @@ The keyword being *quick enough*. That's what this bot aims to do.
 
 It monitors [@officialmcafee](https://twitter.com/officialmcafee)'s tweets, parses their text & images (using OCR), extracts the coin-ticker and buys them on [BitTrex](https://bittrex.com/).
 
+# Disclaimer - you probably don't want to use this!
+
+Judging by the amount of responses I'm getting, similar bots like these exist by the hundreds. Assume a multitude of users per bot. You can't win this game, I suggest you look at the source for educational purposes, but don't trade actual money/btc.
+
+*I am not responsible for any money you lose.*
+
 # Donations
 
 If this bot made you money in any way, I appreciate a donation:
