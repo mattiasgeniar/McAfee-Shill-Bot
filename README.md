@@ -30,7 +30,7 @@ Clone the repo, then do:
 $ composer install
 ```
 
-Add the Bittrex and Twitter API keys in your `.env` file.
+Add the Bittrex and Twitter API keys in your `.env` file. Your BitTrex API key need full access, except for the withdrawal privilege. Both limit & market buys need to be enabled.
 
 ```
 $ cat .env
