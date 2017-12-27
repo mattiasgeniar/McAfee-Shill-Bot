@@ -57,6 +57,14 @@ $ watch -n 60 php artisan mcafee:get-dem-shills -v
 
 That's it.
 
+# How to define buy/sell ratio & quantity?
+
+It's hard coded now [in GetMcafeeShills.php](https://github.com/mattiasgeniar/McAfee-Shill-Bot/blob/master/app/Console/Commands/GetMcafeeShills.php). Check lines 90 to 95.
+
+It defines the quantity (right now: 0.01BTC) and how much you're willing to pay for the coin in percentages and when to set the sell target, after 60s.
+
+This would be better fit as a CLI argument or a config, so feel free to contribute.
+
 # Beta
 
 This has been tested on the latest McAfee shill, but if he changes tactics (ie: color-backgrounded images), the OCR might trigger unwanted results.
